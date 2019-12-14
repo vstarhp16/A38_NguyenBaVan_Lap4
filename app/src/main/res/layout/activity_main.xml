@@ -5,18 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="36dp"
+       android:layout_marginTop="230dp"
+       android:layout_centerHorizontal="true"
+       android:text="LOGIN"/>
 
    <EditText
-       android:id="@+id/user"
-       android:layout_above="@+id/password"
+       android:id="@+id/edtuser"
+       android:layout_above="@+id/edtpassword"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:hint="User"
        />
 <EditText
-    android:id="@+id/password"
+    android:id="@+id/edtpassword"
     android:hint="Password"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_centerInParent="true"/>
+   <Button
+       android:id="@+id/btnLogin"
+       android:text="Login"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/edtpassword"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
 </RelativeLayout>
