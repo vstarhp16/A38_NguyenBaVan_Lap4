@@ -20,6 +20,8 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:hint="User"
+       android:lines="1"
+       android:maxLines="1"
        />
 <EditText
     android:id="@+id/edtpassword"
@@ -27,7 +29,9 @@
     android:inputType="textPassword"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_centerInParent="true"/>
+    android:layout_centerInParent="true"
+    android:lines="1"
+    android:maxLines="1"/>
    <Button
        android:id="@+id/btnLogin"
        android:text="Login"
